@@ -113,5 +113,6 @@ cargo run -- --input ./examples/dataset1 --output ./output/
 - Backend distribué et scalable.
 - Compatible edge devices, optimisé pour performance maximale en Rust.
 - Ajout de la génération automatique d’orthomap à partir d’images brutes.
+- peut etre un moteur de rendu maison
 
 ---
