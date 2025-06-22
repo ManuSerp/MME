@@ -1,0 +1,22 @@
+[package]
+name = "viewer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 3D engine core
+engine = { path = "../engine" }
+
+# cross-platform GPU abstraction
+wgpu = "0.19"
+# windowing and input
+winit = "0.30"
+# GUI overlay
+egui = "0.27"
+egui-winit = "0.27"
+egui-wgpu = "0.27"
+# async + task spawning
+tokio = { version = "1", features = ["full"] }
+# logging
+log = "0.4"
+env_logger = "0.11"
